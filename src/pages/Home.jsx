@@ -24,8 +24,10 @@ return (
                 <p className="text-sm text-gray-600">
                     {brinquedo.description}
                 </p>
-                <div className="mx-auto items-center justify-center">
-                    <button className="w-[50%] bg-cyan-500 mx-auto rounded-2xl text-lg font-semibold">Comprar</button>
+                <div className="mt-4 flex justify-center">
+                    <button className="w-1/2 rounded-2xl bg-cyan-500 px-4 py-1 text-lg font-semibold text-white hover:bg-cyan-600">
+                        Comprar
+                    </button>
                 </div>
             </div>
         ))}
