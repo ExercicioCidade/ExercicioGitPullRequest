@@ -7,7 +7,6 @@ function App() {
       <Header />
 
       <Routes>
-        <Route path="/" element={<h1>Home</h1>} />
         <Route path="/produtos" element={<h1>Produtos</h1>} />
         <Route path="/sobre" element={<h1>Sobre</h1>} />
         <Route path="/contato" element={<h1>Contato</h1>} />
