@@ -1,11 +1,19 @@
-import React from 'react'
+import { Routes, Route } from "react-router-dom";
+import Header from "./components/Header";
 
-const App = () => {
+function App() {
   return (
-    <div>
-      
-    </div>
-  )
+    <>
+      <Header />
+
+      <Routes>
+        <Route path="/" element={<h1>Home</h1>} />
+        <Route path="/produtos" element={<h1>Produtos</h1>} />
+        <Route path="/sobre" element={<h1>Sobre</h1>} />
+        <Route path="/contato" element={<h1>Contato</h1>} />
+      </Routes>
+    </>
+  );
 }
 
-export default App
+export default App;
