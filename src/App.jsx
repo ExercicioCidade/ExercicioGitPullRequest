@@ -1,5 +1,9 @@
+
 import { Routes, Route } from "react-router-dom";
 import Header from "./components/Header";
+import React from 'react'
+import Home from './pages/Home'
+import Contato from './pages/Contato'
 
 function App() {
   return (
@@ -12,7 +16,13 @@ function App() {
         <Route path="/contato" element={<h1>Contato</h1>} />
       </Routes>
     </>
-  );
+
+      <div>
+        <Home/>
+      </div>
+    </>
+
+  )
 }
 
 export default App;
