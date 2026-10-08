@@ -1,17 +1,22 @@
 import React from 'react'
+import Footer from './components/Footer'
 import Home from './pages/Home'
 import Contato from './pages/Contato'
+
 
 const App = () => {
   return (
     <>
       <div>
-        <Home/>
+        <Footer/>
       </div>
 
-       <Contato/> 
-    </>
+        <div>
+          <Home/>
+        </div>
 
+         <Contato/> 
+    </>
   )
 }
 
