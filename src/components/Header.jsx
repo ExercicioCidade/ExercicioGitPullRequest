@@ -7,7 +7,7 @@ function Header() {
 
                 {/* Logo */}
                 <NavLink to="/" className="text-2xl font-bold">
-                    ToyStore
+                    Planeta Brinquedos
                 </NavLink>
 
                 {/* Navegação */}
