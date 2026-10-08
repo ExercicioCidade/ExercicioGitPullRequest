@@ -1,10 +1,11 @@
 import React from 'react'
+import Contato from './pages/Contato'
 
 const App = () => {
   return (
-    <div>
-      
-    </div>
+    <>
+     <Contato/> 
+    </>
   )
 }
 
